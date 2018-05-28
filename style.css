@@ -1,0 +1,11 @@
+html {
+    background-color: rgb(84, 161, 192);
+}
+ 
+img {
+    max-width: 200px;
+    max-height: 220px;
+}
+ #simon {
+     padding: 2%;
+ }
