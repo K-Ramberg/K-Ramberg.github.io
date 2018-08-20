@@ -4,21 +4,21 @@ html {
  
 img {
     max-width: 200px;
-    max-height: 220px;
+    max-height: 254px;
 }
-
+.card-image {
+    background-color: rgb(238, 238, 238)
+}
 h5 {
     padding: 5%;
+    font-weight: 900;
 }
-
-h6{
-    padding: 3% 0;
-}
-
 a {
     margin-bottom: 2vh;
 }
-
+.anchor_reveal {
+    display: none;
+}
 .screen_shot {
     display: block;
     max-width: 100%;
@@ -27,4 +27,30 @@ a {
 
  #simon {
      padding: 2%;
+     font-family: 'Ubuntu Condensed', sans-serif;
  }
+
+ .card {
+     width: 95%;
+ }
+
+ .head {
+     margin-left: 5%;
+ }
+
+ @media( max-width: 530px) {
+    .card-image {
+         display: none;
+     }
+ }
+ @media( max-width: 360px) {
+    .anchor_size {
+         display: none;
+     }
+     .anchor_reveal {
+         display:block;
+     }
+ }
+ h4{
+    padding: 3% 0;
+}
