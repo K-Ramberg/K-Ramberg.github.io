@@ -1,6 +1,7 @@
 html {
     background-color: rgb(100, 214, 161);
 }
+
 body{
     width: 100%;
 }
@@ -12,14 +13,10 @@ body{
 h2, h5, .social {
     font-family: 'Bubblegum Sans', cursive;
 }
+
 .parallax-container {
     width: 100%;
 }
-
- #simon {
-     padding: 2%;
-     font-family: 'Ubuntu Condensed', sans-serif;
- }
 
  @media(max-width: 400px){
     img{
