@@ -1,28 +1,17 @@
 html {
-    background-color: rgb(84, 161, 192);
+    background-color: rgb(100, 214, 161);
 }
- 
-img {
-    max-width: 200px;
-    max-height: 254px;
+body{
+    width: 100%;
 }
-.card-image {
-    background-color: rgb(238, 238, 238)
+
+h2 {
+    font-family: 'Bubblegum Sans', cursive;
+    color: rgb(155, 46, 46);
+    margin: 1rem 0 1.424rem 0;
 }
-h5 {
-    padding: 5%;
-    font-weight: 900;
-}
-a {
-    margin-bottom: 2vh;
-}
-.anchor_reveal {
-    display: none;
-}
-.screen_shot {
-    display: block;
-    max-width: 100%;
-    max-height: 100%;
+.parallax-container {
+    width: 100%;
 }
 
  #simon {
@@ -30,27 +19,12 @@ a {
      font-family: 'Ubuntu Condensed', sans-serif;
  }
 
- .card {
-     width: 95%;
+ @media(max-width: 400px){
+    img{
+        height: 2vh;
+    }
+    .parallax-container {
+    height: 10vh;
+  }
  }
-
- .head {
-     margin-left: 5%;
- }
-
- @media( max-width: 530px) {
-    .card-image {
-         display: none;
-     }
- }
- @media( max-width: 360px) {
-    .anchor_size {
-         display: none;
-     }
-     .anchor_reveal {
-         display:block;
-     }
- }
- h4{
-    padding: 3% 0;
-}
+ 
