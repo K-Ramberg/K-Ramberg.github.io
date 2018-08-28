@@ -5,10 +5,13 @@ body{
     width: 100%;
 }
 
-h2 {
+.social {
+    font-size: 1.5rem;
+    display: block;
+}
+
+h2, h5, .social {
     font-family: 'Bubblegum Sans', cursive;
-    color: rgb(155, 46, 46);
-    margin: 1rem 0 1.424rem 0;
 }
 .parallax-container {
     width: 100%;
